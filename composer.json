@@ -1,0 +1,28 @@
+{
+    "name": "sirbrillig/atoum-just-the-snaps",
+    "description": "A lightweight snapshot testing plugin for Atoum",
+    "type": "library",
+    "license": "MIT",
+    "scripts": {
+        "test": "vendor/bin/atoum tests/*.php"
+    },
+    "autoload": {
+        "psr-0": {
+            "AtoumJustSnaps": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Payton Swick",
+            "email": "payton@foolord.com"
+        }
+    ],
+    "require": {
+        "sirbrillig/just-the-snaps": "dev-master"
+    },
+    "require-dev": {
+        "sirbrillig/phpcs-variable-analysis": "^2.0",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.4.3",
+        "atoum/atoum": "^3.2"
+    }
+}
